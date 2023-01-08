@@ -2,7 +2,7 @@
 library(readxl)
 
 
-dados <- read_excel('C:/Users/Israel Melo/Documents/dados1.xlsx', col_types -c('text','numeric', 'text', 'numeric' ,'text'),na - 'NA')
+dados <- read_excel('C:/Users/Israel Melo/Documents/dados1.xlsx', col_types -c('text', 'numeric', 'text', 'numeric' , 'text'),na - 'NA')
 
 View(dados)
 
